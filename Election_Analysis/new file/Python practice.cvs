@@ -1,0 +1,21 @@
+print("Hello World")
+num_candidates = 3
+winning_percentage = 73.81
+candidate_name = "Diane"
+won_election = True
+counties=["Arapahoe","Denver","Jefferson"]
+print(counties[-2])
+print (len(counties))
+print (counties[0:2])
+counties.append("El Paso")
+counties.insert(2,"El Paso")
+counties.remove("El Paso")
+counties.pop(3)
+counties[2]="El Paso"
+counties_dict={'Arapahoe':422829,'Denver':463353,'Jefferson':432438}
+print(len(counties_dict))
+print(counties_dict)
+counties_dict.values()
+counties_dict.items()
+print(counties_dict["Arapahoe"])
+voting_data=[{'county': 'Arapahoe', 'registered_voters': 422829}, {'county': 'Denver', 'registered_voters': 463353}, {'county': 'Jefferson', 'registered_voters': 432438}]
